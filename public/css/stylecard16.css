@@ -1,0 +1,110 @@
+/* geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: #323232;
+    border: none;
+  }
+  
+  input, label {
+      display: block;
+      width: 100%;
+  }
+  
+  input:focus, label:focus {
+      outline: none;
+  }
+  #card {
+    text-align: center;
+    width: 300px;
+  }
+  
+  a {
+      color: #12b603;
+  }
+  
+  body {
+      padding-top: 5vh;
+      background-image: url(fundoliso.png);
+      background-size: cover;
+      background-position-y: -130px;
+  
+  }
+  
+  /* form */
+  #main-container {
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #FFF;
+      border-radius: 10px;
+      padding: 25px;
+  }
+  
+  #main-container h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 1.6rem;
+  }
+  
+  form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  
+
+
+  
+  input {
+      border-bottom: 2px solid #323232;
+      padding: 10px;
+      font-size: .9rem;
+      margin-bottom: 40px;
+  }
+  
+  input:focus {
+      border-color:  #008000;
+  }
+  
+  input[type="button"] {
+      background-color:  #2E8B57;
+      color: #FFF;
+      border: none;
+      border-radius: 20px;
+      height: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 30px
+      cursor: pointer;
+  }
+  
+  
+  input[type="button"]:hover {
+    background-color: #0eadb3;
+    transition: .5s;
+}
+#agreement {
+    margin-right: 10px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+}
+  
+  /* validações */
+  .error-validation {
+      color: #FF1A1A;
+      position: absolute;
+      top: 57px;
+      font-size: .8rem;
+  }
+  
+  .template{
+      display: none;
+  }
+  
